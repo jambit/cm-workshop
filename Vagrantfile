@@ -56,7 +56,7 @@ Vagrant::Config.run do |config|
   
   config.vm.provision :puppet do |puppet|
     puppet.manifests_path = "manifests"
-    puppet.manifest_file  = "motd.pp"
+    puppet.manifest_file  = "puppet-fun.pp"
   end
 
 end
